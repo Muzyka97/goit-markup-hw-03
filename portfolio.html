@@ -17,24 +17,31 @@
                 <a href="/index.html"class="logo"> <span class="logo-web">Web</span>Studio </a>
                 <ul class="site-nav">
                     <li class="site-nav-link"><a href="index.html"class="link ">Студия</a></li>
-                    <li class="site-nav-link"><a href="portfolio.html" class="link link-current">Портфолио</a></li>
+                    <li class="site-nav-link"><a href="portfolio.html" class="link link-current current">Портфолио</a></li>
                     <li class="site-nav-link" ><a href=""class="link">Контакты</a></li>
                 </ul> 
             </nav >
             <ul class="contact " >
-                <li class="contact-link"><a href="mailto:info@devstudio.com"class="link">info@devstudio.com</a></li>
-                <li class="contact-link"><a href="tel:+380961111111"class="link"> +38 096 111 11 11</a></li>
+                <li class="contact-link">
+                    <a href="mailto:info@devstudio.com"class="link"> <svg class="contact-list-icon" height="12" width="16" >
+                    <use href="./images/symbol.svg#icon-envelope"></use>
+                    </svg>info@devstudio.com</a>
+                </li>
+                <li class="contact-link">
+                    <a href="tel:+380961111111"class="link"><svg class="contact-list-icon" height="16" width="10" >
+                    <use href="./images/symbol.svg#icon-smartphone"></use> 
+                    </svg>+38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
-   </header>
-      <!--основний відділ-->
-      <main>
+    </header>
+    <!--основний відділ-->
+    <main>
             <section class="section">
                 <div class="container">
                 
-                 <h1 class="title-invisible">Зображення</h1>
-                 
-                 <!--фільтр--> 
+                    <h1 class="title-invisible">Зображення</h1>
+                    <!--фільтр--> 
                         <ul class="button-white">
                             <li class="margin-button"><button type="button" class="buttons">Все</button></li>
                             <li class="margin-button"><button type="button"class="buttons">Веб-сайты</button></li>
@@ -42,87 +49,175 @@
                             <li class="margin-button"><button type="button"class="buttons">Дизайн</button></li>
                             <li class="margin-button" ><button type="button"class="buttons">Маркетинг</button></li>
                         </ul>
-             </div>  
+                </div>  
             </section>
-                <!--зображення-->
-                <section class="work-example section">
-                    <div class="container work-example-flax ">
-                            <ul class="pictures pictures-flax" >  
-                                <li  class="pictures-size">
-                                    <div class="pictures-before">
-                                        <img src="./images/page/photo1.jpg.jpg" alt=" ноутбук з відкритим веб-сайтом" width="370"/>
-                                        <div class="pictures-text">
-                                            <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="pictures-pading">
-                                        <h2 class="pictures-title" >Технокряк</h2>
-                                        <p class="pictures-p">Веб-сайт</p>
-                                    </div>
-
-                                </li>
-                                <li  class="pictures-size" > 
-                                    <img src="./images/page/photo_2.jpg" alt="постер з двома безкетболістами" width="370"/>
+        <!--прикладт роботи -->
+        <section class="work-example section">
+                <div class="container ">
+                    <ul class="pictures pictures-flax " > 
+                        <li  class="pictures-size">
+                            <div class="pictures-before">
+                                <img  src="./images/page/photo1.jpg.jpg" alt=" ноутбук з відкритим веб-сайтом" width="370"/>
+                                    <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                    </p>
+                            </div>
+                            <div class="pictures-pading">
+                                <h2 class="pictures-title" >Технокряк</h2>
+                                <p class="pictures-p">Веб-сайт</p>
+                            </div>
+                        </li>                                
+                        <li  class="pictures-size" > 
+                            <div class="pictures-before">
+                                <img src="./images/page/photo_2.jpg" alt="постер з двома безкетболістами" width="370"/>
+                                <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                </p>
+                            </div>
+                                <div class="pictures-pading">
                                     <h2 class="pictures-title">Постер New Orlean vs Golden Star</h2>
                                     <p class="pictures-p">Дизайн</p>
-                                </li>    
-                                <li  class="pictures-size">
-                                    <img src="./images/page/photo_3.jpg" alt="лого Seafood" width="370"/>
-                                    <h2 class="pictures-title">Ресторан Seafood</h2>
-                                    <p class="pictures-p">Приложение</p>
-                                </li>
-                        
-                                <li  class="pictures-size"> 
-                                    <img src="./images/page/photo_4.jpg" alt="навушники" width="370"/>
-                                    <h2 class="pictures-title">Проект Prime</h2>
-                                    <p class="pictures-p">Маркетинг</p>
-                                </li>
-                                <li  class="pictures-size"> 
-                                    <img src="./images/page/photo_5.jpg" alt="дві коробки" width="370"/>
-                                    <h2 class="pictures-title">Проект Boxes</h2>
-                                    <p class="pictures-p">Приложение</p>
-                                </li>
-                                 <li  class="pictures-size"> 
-                                    <img src="./images/page/photo_6.jpg" alt="монітор від ПК" width="370"/>
-                                    <h2 class="pictures-title">Inspiration has no Borders</h2>
-                                    <p class="pictures-p">Веб-сайт</p>
-                                </li>
-                                <li  class="pictures-size"> 
-                                    <img src="./images/page/photo_7.jpg" alt="журнал" width="370"/>
-                                    <h2 class="pictures-title">Издание Limited Edition</h2>
-                                    <p class="pictures-p">Дизайн</p>
-                                </li>
-                                <li  class="pictures-size"> 
-                                    <img src="./images/page/photo_8.jpg" alt="бірка" width="370"/>
-                                    <h2 class="pictures-title">Проект LAB</h2>
-                                    <p class="pictures-p">Маркетинг</p>
-                                </li>
-                                <li  class="pictures-size"> 
-                                    <img src="./images/page/photo_9.jpg" alt="ноутбук" width="370"/>
-                                    <h2 class="pictures-title">Growing Business</h2>
-                                    <p class="pictures-p">Приложение</p>
-                                </li>
-                            </ul>
-                      
-               
-                    </div>
-                </section>   
-                
-            
-      </main>
-      <!--футер-->
-      <footer class="footer" >
-            <div class="container">
-                <a href="/index.html"class="logo footer-logo"> <span class="logo-web">Web</span><span class="logo-white" >Studio</span> </a>
-                <address>
-                    <ul class="nav-footer" >
-                        <li class="footer-adress">г. Киев, пр-т Леси Украинки, 26</li>
-                        <li class="footer-link"><a href="mailto:info@devstudio.com"class="link">info@devstudio.com</a></li>
-                        <li class="footer-tel"><a href="tel:+380961111111"class="link"> +38 096 111 11 11</a></li>
-                    </ul>
-                </address>
-          </div>
+                                </div>
+                        </li> 
+                        <li  class="pictures-size">
+                            <div class="pictures-before">
+                                <img src="./images/page/photo_3.jpg" alt="лого Seafood" width="370"/>
+                                <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                </p>
+                            </div>
+                            <div class="pictures-pading">
+                                <h2 class="pictures-title">Ресторан Seafood</h2>
+                                <p class="pictures-p">Приложение</p>
+                            </div>                        
+                        </li>
+                        <li class="pictures-size"> 
+                            <div class="pictures-before">
+                                <img src="./images/page/photo_4.jpg" alt="навушники" width="370"/>
+                                <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                </p>
+                            </div>
+                            <div class="pictures-pading">
+                                <h2 class="pictures-title">Проект Prime</h2>
+                                <p class="pictures-p">Маркетинг</p>
+                            </div>
+                        </li>
+                        <li  class="pictures-size"> 
+                            <div class="pictures-before">
+                                <img src="./images/page/photo_5.jpg" alt="дві коробки" width="370"/>
+                                <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                </p>
+                            </div>
+                            <div class="pictures-pading">
+                                <h2 class="pictures-title">Проект Boxes</h2>
+                                <p class="pictures-p">Приложение</p>
+                            </div>
+                        </li>
+                        <li  class="pictures-size"> 
+                            <div class="pictures-before">
+                                <img src="./images/page/photo_6.jpg" alt="монітор від ПК" width="370"/>
+                                <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                </p>
+                            </div>
+                            <div class="pictures-pading">
+                                <h2 class="pictures-title">Inspiration has no Borders</h2>
+                                <p class="pictures-p">Веб-сайт</p>
+                            </div>
+                        </li>
+                        <li  class="pictures-size">
+                            <div class="pictures-before">
+                                <img src="./images/page/photo_7.jpg" alt="журнал" width="370"/>
+                                <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                </p>
+                            </div> 
+                            <div class="pictures-pading">
+                                <h2 class="pictures-title">Издание Limited Edition</h2>
+                                <p class="pictures-p">Дизайн</p>
+                            </div>
+                        </li>
+                        <li  class="pictures-size"> 
+                            <div class="pictures-before">
+                                <img src="./images/page/photo_8.jpg" alt="бірка" width="370"/>
+                                <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                </p>
+                            </div>
+                            <div class="pictures-pading">
+                                <h2 class="pictures-title">Проект LAB</h2>
+                                <p class="pictures-p">Маркетинг</p>
+                            </div>
+                        </li>
+                        <li  class="pictures-size">
+                            <div class="pictures-before">
+                                <img src="./images/page/photo_9.jpg" alt="ноутбук" width="370"/>
+                                <p class="pictures-text-hover"> Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения <br> о компании или частном лице.
+                                </p>
+                            </div>
+                            <div class="pictures-pading">
+                                <h2 class="pictures-title">Growing Business</h2>
+                                <p class="pictures-p">Приложение</p>
+                            </div>
+                        </li>
+                    </ul>              
+                </div>
+        </section>   
+    </main>
+    <!--футер-->
+    <footer class="footer footer-flax" >
+        <div class="footer-info">
+              <a href="/index.html"class="logo footer-logo"> <span class="logo-web">Web</span><span class="logo-white" >Studio</span> </a>
+              <address>
+                <ul class="nav-footer" >
+                  <li class="footer-adress">г. Киев, пр-т Леси Украинки, 26</li>
+                  <li class="footer-link"><a href="mailto:info@devstudio.com"class="link">info@devstudio.com</a></li>
+                  <li class="footer-tel"><a href="tel:+380961111111"class="link"> +38 096 111 11 11</a></li>
+                </ul>
+              </address>
+        </div> 
+
+        <div class="footer-follow">
+          <h4 class="footer-title">Присоединяйтесь</h4>
+          <ul class="footer-list-flax list">
+            <li class="footer-list-margin">
+              <a href="" class="footer-list-link">
+                  <svg class="footer-list-icon">
+                  <use href="./images/symbol.svg#icon-instagram"></use>
+                  </svg>
+              </a>
+            <li class="footer-list-margin">
+              <a href="" class="footer-list-link">
+                <svg class="footer-list-icon" >
+                  <use href="./images/symbol.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-list-margin">
+              <a href="" class="footer-list-link">
+                <svg class="footer-list-icon" >
+                  <use href="./images/symbol.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="footer-list-margin">
+              <a href="" class="footer-list-link">
+                <svg class="footer-list-icon" >
+                  <use href="./images/symbol.svg#icon-linkedin"></use>
+                  </svg>
+              </a>
+            </li>
+          </ul>
+        </div> 
+        <div class="footer-follow">
+          <h4 class="footer-title">Подпишись на розссылку</h4>
+          <div class="footer-iteam-center">
+          <label class="footer-lable" for="email"></label>
+          <input
+          placeholder="E-mail"
+          type="email" 
+          class="footer-input"
+          name="user-name"
+          required
+          id="email"
+          />
+        <button type="button" class="footer-button">Подписаться</button>
+        </div>
+        </div>
       </footer>
 </body> 
 </html>     
