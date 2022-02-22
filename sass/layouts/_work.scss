@@ -1,0 +1,27 @@
+.work-grid{
+display: flex;
+}
+.work-grid__box + .work-grid__box{
+margin-left: 30px;
+}
+.work-grid__box{
+position: relative;
+}
+.work-grid__text{
+position: absolute;
+text-align: center;
+text-transform: uppercase;
+
+width: 100%;
+height: 70px;
+padding: 27px 0px 27px 0px;
+left: 0;
+bottom: 0;
+margin: 0;
+
+color: #ffffff ;
+background: rgba(47, 48, 58, 0.8);
+font-size: 14px;
+line-height: 1.14;
+
+}

@@ -1,0 +1,27 @@
+
+body {
+background-color: var($accent-text-color);
+color: var($primary-text-color);
+
+font-family: Roboto, suns-serif;
+letter-spacing: 0.03em;
+}
+
+img{
+display: block;
+}
+h1, h2, h3, h4,p, ul{
+margin: 0;
+padding: 0;
+}
+h2{
+color: var($title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+margin-bottom: 50px;
+}
+li{
+list-style-type:none;
+}

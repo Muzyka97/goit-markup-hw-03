@@ -1,0 +1,33 @@
+.invisible-pading{
+padding-bottom: 0px;
+}
+.advanteges-grid{
+display: flex;
+align-items: center;
+}
+.advanteges-container + .advanteges-container{
+margin-left: 30px;
+}
+.advantages-container__box{
+display: flex;
+background: #F5F4FA;
+width: 270px;
+height: 120px;
+margin-bottom: 30px;
+border-radius: 4px;
+align-items: center;
+justify-content: center;
+}
+.advantages-container__title{
+color: #212121;
+
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+.advantages-container__text{
+font-size: 14px;
+line-height: 1.7;
+}
